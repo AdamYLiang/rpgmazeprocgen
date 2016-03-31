@@ -4,16 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class gameRestart : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
 	
 	// Update is called once per frame
-	void Update () {
-		if(Input.GetKeyDown(KeyCode.R)){
+	void ToggleLoad () {
 			SceneManager.LoadScene (0);
-		}
-	
 	}
+
 }
