@@ -6,12 +6,14 @@ public class gameManager : MonoBehaviour {
 
 	public Transform slime;
 	public Transform hero;
-	public static List<Transform> listOfSlimes = new List<Transform>();
-	public static List<Transform> listOfHeroes = new List<Transform>();
+	public static List<Transform> listOfSlimes;
+	public static List<Transform> listOfHeroes;
 
 	// Use this for initialization
 	void Start () {
-	
+		listOfSlimes = new List<Transform> ();
+		listOfHeroes = new List<Transform> ();
+
 	}
 	
 	// Update is called once per frame
